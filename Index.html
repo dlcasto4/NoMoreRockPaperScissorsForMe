@@ -1,1 +1,56 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Gallery</title>
+  <style>
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .image {
+      width: 250px;
+      height: 250px;
+      border: 2px solid #ccc;
+      margin: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+      transition: all 0.3s ease;
+    }
+
+    .image:hover {
+      transform: scale(1.1);
+      border-color: #00e1ff;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <a href="Index.html">
+      <img src="1v1-lol.png" alt="Image 1" class="image">
+    </a>
+    
+    <a href="https://example.com">
+      <img src="retrohaunt.png" alt="Image 2" class="image">
+    </a>
+    
+    <a href="https://example.com">
+      <img src="image3.jpg" alt="Image 3" class="image">
+    </a>
+    
+    <a href="https://example.com">
+      <img src="image4.jpg" alt="Image 4" class="image">
+    </a>
+    
+    <a href="https://example.com">
+      <img src="image5.jpg" alt="Image 5" class="image">
+    </a>
+    
+    <a href="https://example.com">
+      <img src="image6.jpg" alt="Image 6" class="image">
+    </a>
+  </div>
+</body>
+</html>
